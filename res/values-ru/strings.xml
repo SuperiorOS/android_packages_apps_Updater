@@ -62,10 +62,13 @@
     <string name="snack_download_verification_failed">Ошибка проверки обновления.</string>
     <string name="snack_download_verified">Загрузка завершена.</string>
     <string name="snack_update_not_installable">Это обновление не может быть установлено поверх текущей сборки.</string>
+    <string name="header_title_text">SuperiorOS\n%1$s</string>
     <string name="header_android_version">Android <xliff:g id="version" example="7.1.2">%1$s</xliff:g></string>
     <string name="header_last_updates_check">Последняя проверка: <xliff:g id="date" example="1 Января 2022">%1$s</xliff:g> (<xliff:g id="time" example="01:23">%2$s</xliff:g>)</string>
     <string name="list_build_version">SuperiorOS <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
     <string name="list_build_version_date">SuperiorOS <xliff:g id="version" example="14.1">%1$s</xliff:g> - <xliff:g id="date" example="Июль 11, 2017">%2$s</xliff:g></string>
+    <string name="list_download_progress_new"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> из <xliff:g id="filesize_without_unit" example="310 МБ">%2$s</xliff:g></string>
+    <string name="list_download_progress_eta_new"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> из <xliff:g id="filesize_without_unit" example="310 МБ">%2$s</xliff:g> (<xliff:g id="eta" example="3 минуты осталось">%3$s</xliff:g>)</string>
     <string name="list_verifying_update">Проверка обновления</string>
     <string name="list_no_updates">Обновлений не найдено. Чтобы проверить наличие обновлений вручную, нажмите на кнопку Обновить.</string>
     <string name="action_download">Загрузка</string>
@@ -88,6 +91,24 @@
     <string name="notification_export_fail">Ошибка экспорта</string>
     <string name="toast_already_exporting">Экспорт обновления уже выполняется</string>
     <string name="toast_export_started">Экспорт начат</string>
+    <plurals name="eta_seconds">
+        <item quantity="one">Осталась 1 секунда</item>
+        <item quantity="few"><xliff:g id="count">%d</xliff:g> seconds left</item>
+        <item quantity="many"><xliff:g id="count">%d</xliff:g> seconds left</item>
+        <item quantity="other">Осталось <xliff:g id="count">%d</xliff:g> секунд(ы)</item>
+    </plurals>
+    <plurals name="eta_minutes">
+        <item quantity="one">Осталась 1 минута</item>
+        <item quantity="few"><xliff:g id="count">%d</xliff:g> minutes left</item>
+        <item quantity="many"><xliff:g id="count">%d</xliff:g> minutes left</item>
+        <item quantity="other">Осталось <xliff:g id="count">%d</xliff:g> минут(ы)</item>
+    </plurals>
+    <plurals name="eta_hours">
+        <item quantity="one">Остался 1 час</item>
+        <item quantity="few"><xliff:g id="count">%d</xliff:g> hours left</item>
+        <item quantity="many"><xliff:g id="count">%d</xliff:g> hours left</item>
+        <item quantity="other">Осталось <xliff:g id="count">%d</xliff:g> часа(ов)</item>
+    </plurals>
     <string name="update_on_mobile_data_title">Предупреждение</string>
     <string name="update_on_mobile_data_message">Скачивание обновления по мобильной сети расходует большой объём трафика и может привести к непредвиденным расходам. Продолжить?</string>
     <string name="checkbox_mobile_data_warning">Больше не показывать</string>
@@ -101,4 +122,12 @@
     <string name="info_dialog_title">А вы знали?</string>
     <string name="info_dialog_message">Обновление SuperiorOS - представляют собой полные установочные пакеты. Это означает, что вы всегда можете установить только последнее обновление, даже если вы пропустили некоторые из них!</string>
     <string name="info_dialog_ok">Спасибо за информацию!</string>
+    <string name="maybe_later">Напомнить позже</string>
+    <string name="bunny">Вам никогда не бывает скучно?</string>
+    <string name="nothing">Пока ничего нет...</string>
+    <string name="hit">Ты попал в точку.</string>
+    <string name="check_for_updates">Проверить обновления</string>
+    <string name="about_this_update">Об обновлении</string>
+    <string name="notes">Заметки</string>
+    <string name="update_notes">∘ Держите ваш телефон подключенным к сети в течение всего периода обновления.\n∘  Убедитесь, что на вашем устройстве есть как минимум 30% заряда батареи.\n∘  Не используйте ваш телефон или устройство до завершения обновления.</string>
 </resources>
