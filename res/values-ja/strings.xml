@@ -26,7 +26,7 @@
     <string name="download_starting_notification">ダウンロードを開始します</string>
     <string name="update_failed_notification">アップデートに失敗しました</string>
     <string name="installation_suspended_notification">インストールを保留しました</string>
-    <string name="new_updates_found_title">新規アップデート</string>
+    <string name="new_updates_found_title">新しいアップデート</string>
     <string name="text_download_speed">%1$s, %2$s/秒</string>
     <string name="pause_button">一時停止</string>
     <string name="resume_button">再開</string>
@@ -47,7 +47,7 @@
     <string name="menu_auto_updates_check_interval_weekly">毎週</string>
     <string name="menu_auto_updates_check_interval_monthly">毎月</string>
     <string name="menu_auto_updates_check_interval_never">なし</string>
-    <string name="menu_auto_delete_updates">インストール後にファイル削除</string>
+    <string name="menu_auto_delete_updates">インストール後にアップデートファイルを削除</string>
     <string name="menu_delete_update">削除</string>
     <string name="menu_copy_url">URL をコピー</string>
     <string name="menu_export_update">アップデートのエクスポート</string>
@@ -58,10 +58,10 @@
     <string name="snack_updates_found">アップデートが見つかりました</string>
     <string name="snack_no_updates_found">新しいアップデートはありません</string>
     <string name="snack_updates_check_failed">アップデートの確認に失敗しました。インターネット接続を確認し、しばらくしてからもう一度お試し下さい。</string>
-    <string name="snack_download_failed">ダウンロードに失敗しました。インターネット接続を確認して、もう一度やり直して下さい。</string>
-    <string name="snack_download_verification_failed">アップデートの検証に失敗しました。</string>
-    <string name="snack_download_verified">ダウンロードが完了しました。</string>
-    <string name="snack_update_not_installable">このアップデートは現在のビルドに上書きインストールできません。</string>
+    <string name="snack_download_failed">ダウンロードに失敗しました。インターネット接続を確認し、しばらくしてからもう一度お試し下さい。</string>
+    <string name="snack_download_verification_failed">アップデートの検証に失敗しました</string>
+    <string name="snack_download_verified">ダウンロードが完了しました</string>
+    <string name="snack_update_not_installable">このアップデートは現在のビルドにインストールできません</string>
     <string name="header_title_text">SuperiorOS\n%1$s</string>
     <string name="header_android_version">Android <xliff:g id="version" example="7.1.2">%1$s</xliff:g></string>
     <string name="header_last_updates_check">最終確認: <xliff:g id="date" example="1 January 1970">%1$s</xliff:g> (<xliff:g id="time" example="01:23">%2$s</xliff:g>)</string>
@@ -70,7 +70,7 @@
     <string name="list_download_progress_new"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> / <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g></string>
     <string name="list_download_progress_eta_new"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> / <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g> (<xliff:g id="eta" example="3 minutes left">%3$s</xliff:g>)</string>
     <string name="list_verifying_update">アップデートを検証中</string>
-    <string name="list_no_updates">新規アップデートはありません。新規アップデートを手動で確認するには、更新ボタンを押してください。</string>
+    <string name="list_no_updates">新しいアップデートはありません。新しいアップデートを手動で確認するには、更新ボタンを押してください。</string>
     <string name="action_download">ダウンロード</string>
     <string name="action_pause">一時停止</string>
     <string name="action_resume">再開</string>
@@ -107,7 +107,7 @@
     <string name="blocked_update_dialog_title">アップデートをブロックしました</string>
     <string name="blocked_update_dialog_message">このアップデートはアプリからインストールできません。詳しくは <xliff:g id="info_url">%1$s</xliff:g> をご覧下さい。</string>
     <string name="export_channel_title">エクスポート完了</string>
-    <string name="new_updates_channel_title">新規アップデート</string>
+    <string name="new_updates_channel_title">新しいアップデート</string>
     <string name="ongoing_channel_title">実行中のダウンロード</string>
     <string name="update_failed_channel_title">アップデートに失敗しました</string>
     <string name="info_dialog_title">ご存知ですか?</string>
@@ -120,5 +120,5 @@
     <string name="check_for_updates">アップデートを確認</string>
     <string name="about_this_update">このアップデートについて</string>
     <string name="notes">備考</string>
-    <string name="update_notes">∘ アップデート中は端末のインターネット接続を維持して下さい。\n∘ 端末の充電量が30%以上であることを確認して下さい。\n∘ アップデートが完了するまでは端末を使用しないで下さい。</string>
+    <string name="update_notes">∘ アップデート中は端末のインターネット接続を切断しないでください。\n∘ 端末の充電量が30%以上であることを確認して下さい。\n∘ アップデートが完了するまでは端末を使用しないで下さい。</string>
 </resources>
